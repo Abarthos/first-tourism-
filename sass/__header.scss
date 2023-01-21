@@ -1,3 +1,30 @@
 .display-header{
+background-image: url(../../img/DJI0139.png);
+background-size: cover;
 
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  margin-top: 8%;
+  position: relative;
+  left: 400px;
+}
+
+.tittle-2{
+  color: black;
+  font-size: 65px;
+}
+
+.p-main{
+  font-size: 27px;
+}
+
+.nav-flex{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  align-items: center;
 }
