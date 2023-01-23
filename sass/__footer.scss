@@ -1,0 +1,56 @@
+.footer-fisih{
+  background-image: url(../../img/time-for-1.png);
+  padding-top: 1%;
+  padding-bottom: 13%;
+  margin-top: 5%;
+
+}
+
+.tittle-4{
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  
+}
+
+.first-footer{
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+  padding-left: 174px;
+}
+
+.second-footer{ 
+ display: flex;
+ gap: 2%;
+ margin-top: 3%;
+ margin-left: 174px;
+
+}
+
+.background{
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 2% 38% 2% 2%;
+  border-radius: 33px;
+}
+
+.background-2{
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 21px;
+  padding: 2% 3% 2% 3%;
+}
+
+.nav-final{
+  gap: 28px;
+  display: flex;
+}
+
+.div-final{
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  background-color: rgb(180, 176, 176);
+  padding-top: 13%;
+  padding-bottom: 12%;
+}

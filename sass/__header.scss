@@ -5,26 +5,25 @@ background-size: cover;
 }
 
 h1{
-  font-size: 70px;
+  font-size: 60px;
   color: white;
   margin-top: 8%;
   position: relative;
-  left: 400px;
-}
-
-.tittle-2{
-  color: black;
-  font-size: 65px;
-}
-
-.p-main{
-  font-size: 27px;
+  /* left: 529px; */
+  bottom: 320px;
+  padding-top: 337px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .nav-flex{
   display: flex;
-  justify-content: space-evenly;
+  gap: 68px;
+  padding-left: 300px;
   color: white;
   background-color: rgba(0, 0, 0, 0.349);
   align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+
 }
