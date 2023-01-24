@@ -1,0 +1,29 @@
+.display-main{
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.Tittle-two{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-right: 10%;
+  gap: 60px;
+
+}
+
+.tittle-2{
+  color: black;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.p-main{
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+
+}

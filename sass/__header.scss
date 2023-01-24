@@ -1,0 +1,29 @@
+.display-header{
+background-image: url(../../img/DJI0139.png);
+background-size: cover;
+
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+  margin-top: 8%;
+  position: relative;
+  /* left: 529px; */
+  bottom: 320px;
+  padding-top: 337px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.nav-flex{
+  display: flex;
+  gap: 68px;
+  padding-left: 300px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+
+}

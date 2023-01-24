@@ -1,3 +1,58 @@
+.display-header {
+  background-image: url(../../img/DJI0139.png);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  margin-top: 8%;
+  position: relative;
+  /* left: 529px; */
+  bottom: 320px;
+  padding-top: 337px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.nav-flex {
+  display: flex;
+  gap: 68px;
+  padding-left: 300px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.display-main {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.Tittle-two {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-right: 10%;
+  gap: 60px;
+}
+
+.tittle-2 {
+  color: black;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.p-main {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +64,89 @@
 body {
   display: flex;
   flex-direction: column;
+}
+
+.tittle-3 {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+}
+
+.display-article {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.p-article-span {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: white;
+  position: relative;
+  bottom: 13%;
+  left: 6%;
+}
+
+.span {
+  font-weight: lighter;
+  font-size: 10px;
+  font-family: -webkit-body;
+}
+
+.footer-fisih {
+  background-image: url(../../img/time-for-1.png);
+  padding-top: 1%;
+  padding-bottom: 13%;
+  margin-top: 5%;
+}
+
+.tittle-4 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+}
+
+.first-footer {
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+  padding-left: 174px;
+}
+
+.second-footer {
+  display: flex;
+  gap: 2%;
+  margin-top: 3%;
+  margin-left: 174px;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 2% 31% 2% 2%;
+  border-radius: 20px;
+}
+
+.background-2 {
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 21px;
+  padding: 2% 3% 2% 3%;
+}
+
+.nav-final {
+  gap: 28px;
+  display: flex;
+}
+
+.div-final {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  background-color: rgb(180, 176, 176);
+  padding-top: 13%;
+  padding-bottom: 13%;
 }
 
 /*# sourceMappingURL=styles.css.map */
