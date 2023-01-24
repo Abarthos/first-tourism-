@@ -1,0 +1,39 @@
+.box {
+    background-color:#C4C2C2;
+    width: 773px;
+    height: 690px;
+    left: 619px;
+    top: 114px;
+    position: relative;
+    
+}
+.box__logo {
+    position: absolute;
+    width: 151px;
+    height: 105px;
+    left: 318px;
+    top: 62px;
+    background: url(LOGO_TRAVEL.png);}
+img{
+    width: 94px;
+}
+
+
+.box__titlle{
+    position: absolute;
+    width: 137px;
+    height: 46px;
+    top: 107px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.79);
+}
+.form__box{
+    position:absolute;
+    left: 287px;
+    top: 315px;
+
+}
