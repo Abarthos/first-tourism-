@@ -1,39 +1,71 @@
+@mixin pruve{
+    width: 100%;
+    margin-bottom: 36px;
+    background: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px
+
+};
+
 .box {
-    background-color:#C4C2C2;
-    width: 773px;
-    height: 690px;
-    left: 619px;
-    top: 114px;
+    background: rgba(249, 249, 250, 0.8);
+    width: 837px;
+    height: 764px;
+    left: 34%;
+    top: 214px;
     position: relative;
-    
 }
 .box__logo {
     position: absolute;
     width: 151px;
     height: 105px;
     left: 318px;
-    top: 62px;
-    background: url(LOGO_TRAVEL.png);}
-img{
-    width: 94px;
+    top: 52px;
 }
-
+img{
+    width: 165px;
+}
 
 .box__titlle{
     position: absolute;
     width: 137px;
     height: 46px;
-    top: 107px;
-    font-family: 'Inter';
+    top: 134px;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
     color: rgba(0, 0, 0, 0.79);
+    left: 29px;
 }
 .form__box{
     position:absolute;
     left: 287px;
     top: 315px;
+    top: 252px;
+    display: flex;
+}
+.nombre{
+    margin-top: 5px;
+    input{
+        @include pruve;
+    }
+}
 
+button{
+    position: absolute;
+    width: 156px;
+    height: 40px;
+    left: 64px;
+    top: 313px;
+    background:black;
+    border-radius: 14px;
+    color: white;
+    font-size: 16px;
 }
