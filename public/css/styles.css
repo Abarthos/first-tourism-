@@ -125,8 +125,8 @@ body {
 
 .background {
   background-color: rgba(255, 255, 255, 0.445);
-  padding: 2% 38% 2% 2%;
-  border-radius: 33px;
+  padding: 2% 31% 2% 2%;
+  border-radius: 20px;
 }
 
 .background-2 {
@@ -146,7 +146,7 @@ body {
   gap: 2%;
   background-color: rgb(180, 176, 176);
   padding-top: 13%;
-  padding-bottom: 12%;
+  padding-bottom: 13%;
 }
 
 /*# sourceMappingURL=styles.css.map */
