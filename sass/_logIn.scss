@@ -2,7 +2,9 @@
 /*input{
     @include pruve;
 }*/
-
+body{
+    background-color: #666
+}
 .center{
     position: absolute;
     top: 7%;
@@ -11,15 +13,13 @@
     width: 770px;
     height: 737px;
     background-color: rgba(249, 249, 250, 0.8);
-
     padding: 9%;
 }
 .travel{
     img{
         position: relative;
-        width: 102px;
+        width: 132px;
         left: 158px;
-        bottom: 90px;
     }
 }
 .center{
