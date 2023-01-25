@@ -17,7 +17,7 @@ body {
 .center {
   position: absolute;
   top: 7%;
-  left: 27%;
+  left: 40%;
   transform: translate(-50% -50%);
   width: 770px;
   height: 737px;
@@ -145,7 +145,9 @@ form .txt_field {
     @include pruve;
 }*/
 body {
-  background-color: #666;
+  background-image: url(../../img/form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .center {

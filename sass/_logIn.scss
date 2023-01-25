@@ -3,7 +3,9 @@
     @include pruve;
 }*/
 body{
-    background-color: #666
+ background-image: url(../../img/form.png);
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 .center{
     position: absolute;
