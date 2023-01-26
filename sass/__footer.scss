@@ -3,7 +3,8 @@
   padding-top: 1%;
   padding-bottom: 13%;
   margin-top: 5%;
-
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .tittle-4{
@@ -31,14 +32,21 @@
 
 .background{
   background-color: rgba(255, 255, 255, 0.445);
-  padding: 2% 31% 2% 2%;
+  color: black;
+  padding-top: 5px;
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-bottom: 5px;
   border-radius: 20px;
 }
 
 .background-2{
   background-color: rgba(255, 255, 255, 0.445);
   border-radius: 21px;
-  padding: 2% 3% 2% 3%;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
 }
 
 .nav-final{
@@ -46,11 +54,16 @@
   display: flex;
 }
 
+.nav-final img {
+  width: auto;
+  height: 40px;
+}
+
 .div-final{
   display: flex;
   justify-content: space-around;
   gap: 2%;
   background-color: rgb(180, 176, 176);
-  padding-top: 13%;
-  padding-bottom: 13%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
