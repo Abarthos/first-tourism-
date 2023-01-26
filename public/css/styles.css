@@ -279,6 +279,12 @@ form .txt_field {
   background-image: url(../../img/DJI0139.png);
   background-size: cover;
 }
+@media screen and (max-width: 600px) {
+  .display-header {
+    width: 218%;
+    padding-left: 0%;
+  }
+}
 
 .header__imgTamarindo {
   background-image: url(../../img/TamarindoHB.png);
@@ -312,6 +318,13 @@ h1 {
   font-family: "Inter", sans-serif;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 118px;
+    display: contents;
+    color: rgba(255, 255, 255, 0.623);
+  }
+}
 
 .nav-flex {
   display: flex;
@@ -323,6 +336,15 @@ h1 {
   font-family: "Inter", sans-serif;
   font-size: 12px;
 }
+@media screen and (max-width: 600px) {
+  .nav-flex {
+    gap: 3.5%;
+    align-items: center;
+    color: white;
+    padding-left: 28px;
+    font-size: 19px;
+  }
+}
 
 .display-main {
   display: flex;
@@ -331,11 +353,20 @@ h1 {
   margin-top: 5%;
   margin-right: 5%;
 }
+@media screen and (max-width: 600px) {
+  .display-main {
+    display: flex;
+    gap: 0%;
+    margin-top: 10%;
+    margin-left: 2%;
+    align-items: flex-start;
+  }
+}
 
 .Tittle-two {
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
+  padding-left: 7%;
   margin-right: 10%;
   gap: 60px;
 }
@@ -345,10 +376,20 @@ h1 {
   font-size: 40px;
   font-family: "Inter", sans-serif;
 }
+@media screen and (max-width: 600px) {
+  .tittle-2 {
+    font-size: 25px;
+  }
+}
 
 .p-main {
   font-size: 14px;
   font-family: "Inter", sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .p-main {
+    font-size: 9px;
+  }
 }
 
 * {
@@ -371,11 +412,22 @@ body {
   font-size: 22px;
 }
 
+@media screen and (max-width: 600px) {
+  .img-lest-size {
+    height: 275px;
+  }
+}
+
 .display-article {
   display: flex;
   justify-content: center;
   gap: 5%;
   margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+  .display-article {
+    padding-left: 111%;
+  }
 }
 
 .p-article-span {
@@ -406,6 +458,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 600px) {
+  .footer-fisih {
+    background-size: cover;
+    width: 218%;
+    padding-left: 0%;
+  }
+}
 
 .tittle-4 {
   color: hsl(0deg, 0%, 100%);
@@ -420,12 +479,22 @@ body {
   margin-top: 54px;
   padding-left: 174px;
 }
+@media screen and (max-width: 600px) {
+  .first-footer {
+    padding-left: 43px;
+  }
+}
 
 .second-footer {
   display: flex;
   gap: 2%;
   margin-top: 3%;
   margin-left: 174px;
+}
+@media screen and (max-width: 600px) {
+  .second-footer {
+    margin-left: 0px;
+  }
 }
 
 .background {
@@ -464,6 +533,13 @@ body {
   background-color: rgb(180, 176, 176);
   padding-top: 5%;
   padding-bottom: 5%;
+}
+@media screen and (max-width: 600px) {
+  .div-final {
+    background-size: cover;
+    width: 218%;
+    padding-left: 0%;
+  }
 }
 
 .button-basic {

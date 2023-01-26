@@ -5,12 +5,22 @@
   font-size: 22px;
 
 }
+.img-lest-size{
+ @include mobile{
+  height: 275px;
+ }
+
+}
 
 .display-article{
   display: flex;
   justify-content: center;
   gap: 5%;
   margin-top: 5%;
+
+  @include mobile{
+    padding-left: 111%;
+  }
 
 }
 

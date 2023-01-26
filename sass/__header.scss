@@ -1,11 +1,19 @@
 .display-header{
 background-image: url(../../img/DJI0139.png);
 background-size: cover;
+
+@include mobile{
+  width: 218%;
+  padding-left: 0%;
 }
+}
+
 
 
 .header__imgTamarindo {
   background-image: url(../../img/TamarindoHB.png);
+
+
 }
 
 .header__imgGuanacaste {
@@ -35,6 +43,12 @@ h1{
   padding-top: 337px;
   font-family: "Inter", sans-serif;
   text-align: center;
+
+  @include mobile{
+    font-size: 118px;
+    display: contents;
+    color: rgba(255, 255, 255, 0.623);
+  }
 }
 
 .nav-flex{
@@ -46,4 +60,12 @@ h1{
   align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+
+  @include mobile{
+    gap: 3.5%;
+    align-items: center;
+    color: white;
+    padding-left: 28px;
+    font-size: 19px;
+  }
 }

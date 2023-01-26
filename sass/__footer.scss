@@ -5,6 +5,12 @@
   margin-top: 5%;
   background-repeat:no-repeat;
   background-size: cover;
+
+  @include mobile{
+    background-size: cover;
+    width: 218%;
+    padding-left: 0%;
+  }
 }
 
 .tittle-4{
@@ -20,6 +26,10 @@
   flex-direction: column;
   margin-top: 54px;
   padding-left: 174px;
+
+  @include mobile{
+    padding-left: 43px;
+  }
 }
 
 .second-footer{ 
@@ -27,6 +37,10 @@
  gap: 2%;
  margin-top: 3%;
  margin-left: 174px;
+
+ @include mobile{
+  margin-left: 0px;
+ }
 
 }
 
@@ -66,4 +80,10 @@
   background-color: rgb(180, 176, 176);
   padding-top: 5%;
   padding-bottom: 5%;
+
+  @include mobile{
+    background-size: cover;
+    width: 218%;
+    padding-left: 0%;
+  }
 }
