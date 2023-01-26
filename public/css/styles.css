@@ -3,6 +3,15 @@
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
 h1 {
   font-size: 60px;
   color: white;
@@ -93,6 +102,11 @@ body {
   font-weight: lighter;
   font-size: 10px;
   font-family: -webkit-body;
+}
+
+.box-text {
+  height: 200px;
+  width: 250px;
 }
 
 .footer-fisih {
