@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -17,4 +18,8 @@ flex-direction: column;
 @import "_login.scss";
 
 
-
+@import "__header.scss";
+@import "__main.scss";
+@import "__body.scss";
+@import "__article.scss";
+@import "__footer.scss";
