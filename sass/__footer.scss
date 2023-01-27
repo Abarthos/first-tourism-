@@ -25,7 +25,11 @@
   color: hsl(0, 0%, 100%);
   font-size: 26px;
   font-family: "Inter", sans-serif;
-  
+
+   /*Nuevo Branch desktop*/
+   @include desktop{
+    font-size: 55px;
+  }
 }
 
 .first-footer{
@@ -34,6 +38,12 @@
   flex-direction: column;
   margin-top: 54px;
   padding-left: 174px;
+  
+  /*Nuevo Branch desktop*/
+   @include desktop{
+    margin-top: 3%;
+          
+  }
 
    /*Nuevo Branch Tablet*/  
    @include tablet{
@@ -89,7 +99,8 @@
 
 .nav-final img {
   width: auto;
-  height: 40px;
+  height: 125px;
+
 }
 
 .div-final{
@@ -99,6 +110,12 @@
   background-color: rgb(180, 176, 176);
   padding-top: 5%;
   padding-bottom: 5%;
+
+   /*Nuevo Branch desktop*/
+   @include desktop{
+    font-size: 35px;
+          
+  }
 
   /*Nuevo Branch Tablet*/ 
   @include tablet{

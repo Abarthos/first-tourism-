@@ -2,6 +2,13 @@
 background-image: url(../../img/DJI0139.png);
 background-size: cover;
 
+  /*Nuevo Branch desktop*/
+@include desktop{
+  width: 100%;
+  padding-left: 0%;
+    
+}
+
 /*Nuevo Branch Tablet*/
 @include tablet{
   width: 118%;
@@ -52,6 +59,13 @@ h1{
   font-family: "Inter", sans-serif;
   text-align: center;
 
+  /*Nuevo Branch desktop*/
+  @include desktop{
+    font-size: 372px;
+    color: rgba(255, 255, 255, 0.575);
+      
+  }
+
     /*Nuevo Branch Tablet*/
   @include tablet{
     font-size: 144px;
@@ -75,6 +89,14 @@ h1{
   align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+
+    /*Nuevo Branch Tablet*/
+    @include desktop{
+    font-size: 71px;
+    gap: 130px;
+    padding-left: 37px;
+    } 
+  
 
   /*Nuevo Branch Tablet*/
   @include tablet{

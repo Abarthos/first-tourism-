@@ -6,6 +6,13 @@
 
 }
 .img-lest-size{
+
+   /*Nuevo Branch desktop*/
+ @include desktop{
+  height: 817px;
+
+}
+  
  @include mobile{
   height: 275px;
  }
@@ -38,12 +45,24 @@
   position: relative;
   bottom: 13%;
   left: 6%;
+
+  /*Nuevo Branch desktop*/
+  @include desktop{
+    font-size: 26px;
+        
+  }
 }
 
 .span{
   font-weight: lighter;
   font-size: 10px;
   font-family: -webkit-body;
+
+   /*Nuevo Branch desktop*/
+   @include desktop{
+    font-size: 35px;
+        
+  }
 }
 
 

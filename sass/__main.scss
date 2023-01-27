@@ -15,12 +15,23 @@
 
 }
 
+.img-main{
+
+   /*Nuevo Branch desktop*/
+  @include desktop{
+   height: 754px; 
+
+  }
+
+}
+
 .Tittle-two{
   display: flex;
   flex-direction: column;
   padding-left: 7%;
   margin-right: 10%;
   gap: 60px;
+
 
   /*Nuevo Branch Tablet*/
   @include tablet{
@@ -32,6 +43,11 @@
   color: black;
   font-size: 40px;
   font-family: "Inter", sans-serif;
+
+   /*Nuevo Branch desktop*/
+   @include desktop {
+    font-size: 108px;
+  }
 
   /*Nuevo Branch Tablet*/
   @include tablet{
@@ -47,6 +63,11 @@
 .p-main{
   font-size: 14px;
   font-family: "Inter", sans-serif;
+
+   /*Nuevo Branch desktop*/
+  @include desktop {
+    font-size: 25px;
+  }
 
   @include tablet {
     font-size: 10px;
