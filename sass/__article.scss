@@ -18,6 +18,13 @@
   gap: 5%;
   margin-top: 5%;
 
+  /*Nuevo Branch Tablet*/
+  @include tablet {
+    padding-left: 17%;
+    gap: 3%;
+
+  }
+
   @include mobile{
     padding-left: 111%;
   }

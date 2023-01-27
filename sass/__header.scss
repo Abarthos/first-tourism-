@@ -2,10 +2,18 @@
 background-image: url(../../img/DJI0139.png);
 background-size: cover;
 
+/*Nuevo Branch Tablet*/
+@include tablet{
+  width: 118%;
+  padding-left: 0%;
+
+}
+
 @include mobile{
   width: 218%;
   padding-left: 0%;
 }
+
 }
 
 
@@ -44,6 +52,13 @@ h1{
   font-family: "Inter", sans-serif;
   text-align: center;
 
+    /*Nuevo Branch Tablet*/
+  @include tablet{
+    font-size: 144px;
+    display: contents;
+    color: rgba(255, 255, 255, 0.623);
+  }
+
   @include mobile{
     font-size: 118px;
     display: contents;
@@ -60,6 +75,15 @@ h1{
   align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+
+  /*Nuevo Branch Tablet*/
+  @include tablet{
+    gap: 7%;
+    align-items: center;
+    color: white;
+    padding-left: 28px;
+    font-size: 14px;
+  } 
 
   @include mobile{
     gap: 3.5%;

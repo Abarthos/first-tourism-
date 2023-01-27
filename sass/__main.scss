@@ -22,12 +22,21 @@
   margin-right: 10%;
   gap: 60px;
 
+  /*Nuevo Branch Tablet*/
+  @include tablet{
+    gap: 25px;
+  }
 }
 
 .tittle-2{
   color: black;
   font-size: 40px;
   font-family: "Inter", sans-serif;
+
+  /*Nuevo Branch Tablet*/
+  @include tablet{
+    font-size: 35px;
+  }
 
   @include mobile{
     font-size: 25px;
@@ -38,6 +47,10 @@
 .p-main{
   font-size: 14px;
   font-family: "Inter", sans-serif;
+
+  @include tablet {
+    font-size: 10px;
+  }
 
   @include mobile {
     font-size: 9px;

@@ -278,6 +278,13 @@ form .txt_field {
 .display-header {
   background-image: url(../../img/DJI0139.png);
   background-size: cover;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .display-header {
+    width: 118%;
+    padding-left: 0%;
+  }
 }
 @media screen and (max-width: 600px) {
   .display-header {
@@ -317,6 +324,14 @@ h1 {
   padding-top: 337px;
   font-family: "Inter", sans-serif;
   text-align: center;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 144px;
+    display: contents;
+    color: rgba(255, 255, 255, 0.623);
+  }
 }
 @media screen and (max-width: 600px) {
   h1 {
@@ -335,6 +350,16 @@ h1 {
   align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 12px;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .nav-flex {
+    gap: 7%;
+    align-items: center;
+    color: white;
+    padding-left: 28px;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 600px) {
   .nav-flex {
@@ -369,12 +394,24 @@ h1 {
   padding-left: 7%;
   margin-right: 10%;
   gap: 60px;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .Tittle-two {
+    gap: 25px;
+  }
 }
 
 .tittle-2 {
   color: black;
   font-size: 40px;
   font-family: "Inter", sans-serif;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .tittle-2 {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 600px) {
   .tittle-2 {
@@ -385,6 +422,11 @@ h1 {
 .p-main {
   font-size: 14px;
   font-family: "Inter", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .p-main {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 600px) {
   .p-main {
@@ -423,6 +465,13 @@ body {
   justify-content: center;
   gap: 5%;
   margin-top: 5%;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .display-article {
+    padding-left: 17%;
+    gap: 3%;
+  }
 }
 @media screen and (max-width: 600px) {
   .display-article {
@@ -457,6 +506,15 @@ body {
   margin-top: 5%;
   background-repeat: no-repeat;
   background-size: cover;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .footer-fisih {
+    background-size: contain;
+    width: 118%;
+    padding-left: 0%;
+    padding-bottom: 8%;
+  }
 }
 @media screen and (max-width: 600px) {
   .footer-fisih {
@@ -478,6 +536,12 @@ body {
   flex-direction: column;
   margin-top: 54px;
   padding-left: 174px;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .first-footer {
+    padding-left: 43px;
+  }
 }
 @media screen and (max-width: 600px) {
   .first-footer {
@@ -490,6 +554,12 @@ body {
   gap: 2%;
   margin-top: 3%;
   margin-left: 174px;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .second-footer {
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 600px) {
   .second-footer {
@@ -533,6 +603,14 @@ body {
   background-color: rgb(180, 176, 176);
   padding-top: 5%;
   padding-bottom: 5%;
+  /*Nuevo Branch Tablet*/
+}
+@media screen and (max-width: 768px) {
+  .div-final {
+    background-size: cover;
+    width: 118%;
+    padding-left: 0%;
+  }
 }
 @media screen and (max-width: 600px) {
   .div-final {
