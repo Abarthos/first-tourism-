@@ -1,6 +1,7 @@
 @include mobile{
     body{
-        background-size: 780px 895px;
+        
+    background-size: 722px 1438px;
     }
     .center {
         position: absolute;
@@ -173,15 +174,16 @@
 }
 
 .box {
-    position: absolute;
-    top: 7%;
-    left: 20%;
-    transform: translate(-50% -50%);
-    width: 770px;
-    height: 737px;
-    background-color: rgba(0, 0, 0, 0.48);
-    padding: 9%;
-}
+        position: absolute;
+        top: 8%;
+        left: 17%;
+        transform: translate(-50% -50%);
+        width: 770px;
+        height: 737px;
+        background-color: rgba(0, 0, 0, 0.48);
+        padding: 9%;
+    }
+    
 .login_boton {
     width: 156px;
     height: 40px;
@@ -278,5 +280,29 @@ a {
     left: 88px;
     bottom: 31px;
 }
+}
+/*log in*/
+.box {
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    transform: translate(-50% -50%);
+    width: 493px;
+    height: 737px;
+    background-color: rgba(0, 0, 0, 0.48);
+    padding: 9%;
+}
+.log .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 31px 0;
+    bottom: 143px;
+}
+.log .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    bottom: 144px;
+    left: 60px;
 }
 }
