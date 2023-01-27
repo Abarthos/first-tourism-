@@ -7,22 +7,22 @@
         position: absolute;
         top: 12%;
         left: 27%;
-        width: 422px;
-        height: 598px;
+        width: 297px;
+        height: 581px;
         background-color: rgba(0, 0, 0, 0.47);
-        /* padding: 0%; */
-        left: 23px;
+        padding: 6%;
+        left: 13px;
     }
     .center h1{
             top: 42px;
             font-size: 37px;
             border: none;
-            left: 13px;
+            left: 59px;
     }
     .txt_field label{
         color: #efeff0;
     }
-    txt_field label {
+    .txt_field label {
         position: absolute;
         top: 39%;
         left: 5%;
@@ -33,11 +33,11 @@
         transition: 0.5s;
     }
     form{
+        padding: 0 0px;
         box-sizing: border-box;
-        left: 72px;
+        left: 18px;
         position: absolute;
-        bottom: 62px;
-        padding: 0px;
+        bottom: 0px;
     }
     form .txt_field {
         padding: 0 0px;
@@ -58,7 +58,7 @@
             cursor: pointer;
             outline: none;
             position: relative;
-            left: 112px;
+            left: 123px;
             bottom: 73px;
     }
     a {
@@ -225,11 +225,11 @@
         position: absolute;
         top: 12%;
         left: 27%;
-        width: 568px;
+        width: 555px;
         height: 581px;
-        background-color: rgb(0 0 0 / 47%);
+        background-color: rgba(0, 0, 0, 0.47);
         padding: 6%;
-        left: 97px;
+        left: 125px;
     }
     .center h1{
         top: 67px;
@@ -237,6 +237,9 @@
         border: none;
         left: 156px;
     
+}
+.travel img{
+    left: 176;
 }
 .txt_field label{
     color: #efeff0;
@@ -280,7 +283,7 @@ a {
     left: 88px;
     bottom: 31px;
 }
-}
+
 /*log in*/
 .box {
     position: absolute;
@@ -304,5 +307,6 @@ a {
     margin: 30px 0;
     bottom: 144px;
     left: 60px;
+}
 }
 }
