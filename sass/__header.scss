@@ -13,16 +13,9 @@ background-size: cover;
 
 /*Nuevo Branch Tablet*/
 @include tablet{
-  width: 118%;
-  padding-left: 0%;
-
 }
 
 @include mobile{
-  width: 218%;
-  padding-left: 0%;
-}
-
 }
 
 .header__imgTamarindo {
