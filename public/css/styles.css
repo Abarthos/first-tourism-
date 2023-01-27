@@ -284,7 +284,7 @@ body {
     position: absolute;
     top: 12%;
     left: 27%;
-    width: 422px;
+    width: 423px;
     height: 598px;
     background-color: rgba(0, 0, 0, 0.47);
     /* padding: 0%; */
@@ -299,7 +299,7 @@ body {
   .txt_field label {
     color: #efeff0;
   }
-  txt_field label {
+  .txt_field label {
     position: absolute;
     top: 39%;
     left: 5%;
@@ -311,9 +311,9 @@ body {
   }
   form {
     box-sizing: border-box;
-    left: 72px;
+    left: 65px;
     position: absolute;
-    bottom: 62px;
+    bottom: 49px;
     padding: 0px;
   }
   form .txt_field {
