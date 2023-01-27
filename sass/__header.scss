@@ -1,6 +1,15 @@
 .display-header{
 background-image: url(../../img/DJI0139.png);
 background-size: cover;
+}
+
+.header__imgTamarindo {
+  background-image: url(../../img/TamarindoHB.png);
+}
+
+.header__imgGuanacaste {
+  background-image: url(../../img/GuanacasteHB.png);
+}
 
 /*Nuevo Branch Tablet*/
 @include tablet{
@@ -16,12 +25,8 @@ background-size: cover;
 
 }
 
-
-
 .header__imgTamarindo {
   background-image: url(../../img/TamarindoHB.png);
-
-
 }
 
 .header__imgGuanacaste {
