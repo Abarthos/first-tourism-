@@ -1,9 +1,11 @@
-@mixin pruve{
-    width: 100%;
-    margin-bottom: 15px;
-    background: none;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid black;
-};
+
+@mixin mobile{
+    @media screen and (max-width:320px) {
+        @content;
+    }
+}
+@mixin tablet{
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}
