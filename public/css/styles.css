@@ -145,11 +145,11 @@ form .txt_field {
 /*input{
     @include pruve;
 }*/
-/*body {
+.back-form {
   background-image: url(../../img/form.png);
   background-size: cover;
   background-repeat: no-repeat;
-}*/
+}
 
 .box {
   position: absolute;
@@ -379,7 +379,7 @@ form .txt_field {
     top: 58px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) and (max-width: 1024px) {
   body {
     background-size: 1032px 895px;
   }
@@ -469,7 +469,7 @@ form .txt_field {
     left: 166px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) and (max-width: 768px) {
   body {
     background-size: 770px 895px;
   }
@@ -613,7 +613,7 @@ h1 {
     color: rgba(255, 255, 255, 0.623);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   h1 {
     font-size: 118px;
     display: contents;
@@ -641,7 +641,7 @@ h1 {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .nav-flex {
     gap: 3.5%;
     align-items: center;
@@ -658,7 +658,7 @@ h1 {
   margin-top: 5%;
   margin-right: 5%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .display-main {
     display: flex;
     gap: 0%;
@@ -693,7 +693,7 @@ h1 {
     font-size: 35px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .tittle-2 {
     font-size: 25px;
   }
@@ -708,7 +708,7 @@ h1 {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .p-main {
     font-size: 9px;
   }
@@ -734,7 +734,7 @@ body {
   font-size: 22px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .img-lest-size {
     height: 275px;
   }
@@ -753,7 +753,7 @@ body {
     gap: 3%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .display-article {
     padding-left: 111%;
   }
@@ -796,7 +796,7 @@ body {
     padding-bottom: 8%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .footer-fisih {
     background-size: cover;
     width: 218%;
@@ -823,7 +823,7 @@ body {
     padding-left: 43px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .first-footer {
     padding-left: 43px;
   }
@@ -841,7 +841,7 @@ body {
     margin-left: 0px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .second-footer {
     margin-left: 0px;
   }
@@ -892,7 +892,7 @@ body {
     padding-left: 0%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .div-final {
     background-size: cover;
     width: 218%;
