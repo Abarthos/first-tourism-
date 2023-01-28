@@ -145,11 +145,11 @@ form .txt_field {
 /*input{
     @include pruve;
 }*/
-body {
+/*body {
   background-image: url(../../img/form.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
+}*/
 
 .box {
   position: absolute;
