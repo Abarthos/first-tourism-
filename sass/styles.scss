@@ -13,11 +13,13 @@ display: flex;
 flex-direction: column;
 }
 
-@import "_form.scss";
+@import "__form.scss";
 @import"_mixing.scss";
 @import "_login.scss";
+@import "__responsive.scss";
 
-@import "_medias-queries.scss";
+
+
 @import "__header.scss";
 @import "__main.scss";
 @import "__body.scss";

@@ -2,58 +2,51 @@
 /*input{
     @include pruve;
 }*/
-body{
- background-image: url(../../img/form.png);
- background-size: cover;
- background-repeat: no-repeat;
-}
-.box{
+
+.center{
     position: absolute;
     top: 7%;
-    left: 27%;
+    left: 21%;
     transform: translate(-50% -50%);
     width: 770px;
-    height: 737px;
+    height: 800px;
     background-color: rgba(0, 0, 0, 0.48);
     padding: 9%;
-}
+  }
+
 .travel{
     img{
         position: relative;
-        width: 132px;
+        width: 102px;
         left: 158px;
+        bottom: 90px;
     }
 }
-.box{
+.center{
     h1{
         page-break-after: left;
         text-align: center;
         padding: 0 0 20px;
-        border-bottom: 1px solid silver;
+        border-bottom: none;
         position: absolute;
-        left: 174px;
-        top: 78px;
+        left: 191px;
+        top: 82px;
+    }
         
     }
-    }
-    .log{
+    form{
         padding: 0 40px;
         box-sizing: border-box;
+        color: white;
         
     }
 
 
-.log{
-
-.txt_field{
+form .txt_field{
     position: relative;
     border-bottom: 2px solid #adadad;
-    margin: 30px 0;
+    margin: 17px 0;
 }
-}
-
-.log{
-
 
 .txt_field input{
     width: 100%;
@@ -63,10 +56,8 @@ body{
     border: none;
     background: none;
     outline: none;
+    color: white;
 }
-}
-.log{
-
 .txt_field label{
     position: absolute;
     top: 50%;
@@ -77,9 +68,6 @@ body{
     pointer-events: none;
     transition: .5s;
 }
-}
-.log{
-
 .txt_field span::before{
 content: '';
 position: absolute;
@@ -87,7 +75,6 @@ top: 40px;
 left: 0;
 width: 100%;
 height: 2px;
-}
 }
 .txt_field input:focus~ label,
 .txt_field input:valid~ label{
@@ -108,7 +95,7 @@ height: 2px;
 .pass:hover{
     text-decoration: underline;
 }
-.login_boton{
+.boton{
     width: 156px;
     height: 40px;
     border: 1px solid;
@@ -122,7 +109,7 @@ height: 2px;
     position: relative;
     left: 116px;
 }
-.login_boton {
+.boton {
     border-color: gray;
     transition: .5s;
 }
@@ -134,7 +121,6 @@ height: 2px;
 
 }
 .singup_link a{
-    color: aqua;
     text-decoration: none;
 }
 .singup_link a:hover{
