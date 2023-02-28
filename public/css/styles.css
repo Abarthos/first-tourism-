@@ -146,7 +146,7 @@ form .txt_field {
     @include pruve;
 }*/
 body {
-  background-image: url(../../img/form.png);
+  /* background-image: url(../../img/form.png); esta imagen no tiene ningun sentido aqui*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -910,6 +910,55 @@ body {
     width: 218%;
     padding-left: 0%;
   }
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.carousel-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.carousel-item {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-item-display {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.carousel-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.carousel-controls {
+  margin-top: 20px;
+}
+
+.carousel-prev, .carousel-next {
+  padding: 10px;
+  border: none;
+  background-color: rgba(135, 230, 26, 0.9450980392);
+  color: rgba(255, 255, 255, 0.9450980392);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background-color: rgb(44, 214, 22);
 }
 
 .button-basic {
